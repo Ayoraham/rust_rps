@@ -1,0 +1,60 @@
+   0.374285400s  INFO prepare_target{force=false package_id=bank_app v0.1.0 (\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app) target="bank_app"}: cargo::core::compiler::fingerprint: fingerprint error for bank_app v0.1.0 (\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app)/Check { test: false }/TargetInner { name: "bank_app", doc: true, ..: with_path("\\\\wsl.localhost\\Ubuntu\\home\\ayoraham\\rust\\projects\\bank_app\\src\\main.rs", Edition2024) }
+   0.374431100s  INFO prepare_target{force=false package_id=bank_app v0.1.0 (\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app) target="bank_app"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app\target\debug\.fingerprint\bank_app-633d58d596aed777\bin-bank_app`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.454696300s  INFO prepare_target{force=false package_id=bank_app v0.1.0 (\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app) target="bank_app"}: cargo::core::compiler::fingerprint: fingerprint error for bank_app v0.1.0 (\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app)/Check { test: true }/TargetInner { name: "bank_app", doc: true, ..: with_path("\\\\wsl.localhost\\Ubuntu\\home\\ayoraham\\rust\\projects\\bank_app\\src\\main.rs", Edition2024) }
+   0.454754000s  INFO prepare_target{force=false package_id=bank_app v0.1.0 (\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app) target="bank_app"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app\target\debug\.fingerprint\bank_app-f3eb97d030675fec\test-bin-bank_app`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking bank_app v0.1.0 (\\wsl.localhost\Ubuntu\home\ayoraham\rust\projects\bank_app)
+error: could not compile `bank_app` (bin "bank_app" test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `bank_app` (bin "bank_app") due to 1 previous error
